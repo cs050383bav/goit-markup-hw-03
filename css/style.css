@@ -1,0 +1,244 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color:#757575;
+    --accent-text-color: #2196F3;
+}
+
+address { all: initial; }
+
+
+body {
+    background-color:#E5E5E5;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
+/*---------------------header-----------------------*/
+
+.logo{
+    color: var(--accent-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-black{
+    color: var(--primary-text-color);
+}
+
+.logo-white{
+    color: #FFFFFF;
+}
+
+/*----------------site-nav-----------------*/ 
+
+
+.header-link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em
+}
+
+.header-link:hover,
+.header-link:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+}
+
+.header-mail, .header-phone{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.header-mail:hover, .header-phone:hover,
+.header-mail:focus, .header-phone:focus{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+
+}
+
+
+/*-------------------section gero-----------------*/
+
+.hero{
+
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+/*-------------------advantage-----------------*/
+
+.advantage-title{
+    font-size: 0px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.advantage-topic{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.advantage-paragrph{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/*-------------------do-----------------*/
+
+.do_title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-------------------team-----------------*/
+
+.team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-position{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/*-------------------footer-----------------*/
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-address{
+    margin: 40px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+
+}
+
+.footer-mail, .footer-phone, .footer-address{
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail:hover, .footer-phone:hover, .footer-address:hover,
+.footer-mail:focus, .footer-phone:focus, .footer-address:focus{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+
+}
+
+/*=+=+=+=+=+=+=+=+=+= portfolio =+=+=+=+=+=+=+=+=*/
+
+/*-------------------works-----------------*/
+
+.works-title{
+    font-weight: normal;
+    font-size: 0px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.work-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);  
+}
+
+.works-project{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.works-discription{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
