@@ -18,7 +18,6 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;  
-    border: 1px solid tomato;
 }
 
 .list{
@@ -43,7 +42,6 @@ ul{
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
-    border: 1px solid green;
 }
 
 .section.no-padding{
@@ -63,6 +61,7 @@ ul{
 }
 
 /*---------------------header-----------------------*/
+
 .header{
     display: flex;
     align-items: center;
@@ -298,13 +297,7 @@ margin-bottom: 95px;
     height: 252px;
     display: flex;
     align-items: center;
-
     }
-
-
-.futer-section{
-}
-
 
 .footer-mail, .footer-phone, .footer-address{
     font-family: Roboto, sans-serif;
@@ -313,6 +306,10 @@ margin-bottom: 95px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address{
+    color: #FFFFFF;
 }
 
 .footer-mail:hover, .footer-phone:hover, .footer-address:hover,
@@ -383,6 +380,7 @@ margin-bottom: 95px;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
     margin-bottom: 4px;
+    margin-left: 24px;
 }
 
 .works-discription{
@@ -391,6 +389,8 @@ margin-bottom: 95px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    margin-bottom: 20px;
+    margin-left: 24px;
 }
 
 .works-list{
@@ -400,13 +400,12 @@ margin-bottom: 95px;
 
 .works-item{
     width: calc((100% - 60px) / 3);
-    height: 404px;
-    background-color: royalblue;
-    border: 1px solid #EEEEEE;
-    }
-
-.works-item:not(:nth-child(3n)){
     margin-right: 30px;
+    border: 1px solid #eeeeee;
+}
+
+.works-item:nth-child(3n){
+    margin-right: 0;
 }
 
 .works-item:not(:nth-last-child(-n + 3)){
