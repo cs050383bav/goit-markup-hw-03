@@ -77,7 +77,6 @@ ul{
 .header-nav{
     display: flex;
     align-items: center;
-
 }
 
 .logo{
@@ -148,6 +147,7 @@ ul{
 .header-item:not(:last-child){
     margin-right: 50px;
 }
+
 
 /*-------------------section gero-----------------*/
 
@@ -305,6 +305,8 @@ padding: 200px 0px;
     background-color: #2F303A;
     display: flex;
     align-items: center;
+    padding: 60px 0px;
+
     }
 
 .footer-mail, .footer-phone, .footer-address{
@@ -339,7 +341,6 @@ padding: 200px 0px;
 }
 
 .footer-section{
-    padding: 60px 0px;
 }
 
 /*=+=+=+=+=+=+=+=+=+= portfolio =+=+=+=+=+=+=+=+=*/
