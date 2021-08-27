@@ -60,6 +60,11 @@ ul{
     clip: rect(0 0 0 0);
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
 /*---------------------header-----------------------*/
 .header{
     border-bottom-width: 1px;
@@ -71,7 +76,8 @@ ul{
 .header-container{
     display: flex;
     align-items: center;
-    padding: 25px 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header-nav{
@@ -409,7 +415,6 @@ padding: 200px 0px;
 .works-item{
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
-    border: 1px solid #eeeeee;
 }
 
 .works-item:nth-child(3n){
@@ -425,4 +430,11 @@ padding: 200px 0px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: auto;
+    border: 1px solid #eeeeee;
+    border-top: none;
 }
+
+
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-block-color: #ECECEC;
