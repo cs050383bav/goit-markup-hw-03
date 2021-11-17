@@ -74,16 +74,14 @@ img {
 
 /*---------------------header-----------------------*/
 .header {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-block-color: #ececec;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 .header-nav {
@@ -172,7 +170,7 @@ img {
 /*-------------------section gero-----------------*/
 
 .hero {
-    background: #757575;
+    background: #2F303A;
     text-align: center;
     padding: 200px 0px;
 }
@@ -288,7 +286,7 @@ img {
 }
 
 .team-pers{
-    padding: 30px 15px;
+    padding: 30px 32px;
 }
 
 .team-name {
@@ -323,7 +321,6 @@ img {
 
 .footer {
     background-color: #2f303a;
-    display: flex;
     align-items: center;
     padding: 60px 0px;
 }
@@ -357,6 +354,7 @@ img {
 }
 
 .footer-logo {
+    margin-right: 0;
     margin-bottom: 20px;
     display: block;
 }
